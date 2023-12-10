@@ -1,0 +1,159 @@
+Accuracy: 0.95
+Confusion Matrix:
+[[ 23   4]
+ [  3 111]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.85      0.87        27
+           1       0.97      0.97      0.97       114
+
+    accuracy                           0.95       141
+   macro avg       0.92      0.91      0.92       141
+weighted avg       0.95      0.95      0.95       141
+
+
+For the Actual and Predicted Columns, a 1 means all-star status and 0 means non all-star status
+
+            player_name   Season  Actual  Predicted
+5182        Joakim Noah  2007-08       1          1
+5208       Kevin Durant  2007-08       1          1
+5342        Joakim Noah  2008-09       1          1
+5422       Kevin Durant  2008-09       1          1
+5629         Marc Gasol  2008-09       1          0
+5876      Stephen Curry  2009-10       1          1
+6083         Marc Gasol  2009-10       1          1
+6150        Joakim Noah  2009-10       1          1
+6183       Kevin Durant  2009-10       1          1
+6290       Kevin Durant  2010-11       1          1
+6315        Joakim Noah  2010-11       1          1
+6471      Stephen Curry  2010-11       1          0
+6603         Marc Gasol  2010-11       1          1
+6680       Jimmy Butler  2011-12       1          1
+6681        Joakim Noah  2011-12       1          1
+6782       Kemba Walker  2011-12       1          1
+6786       Kevin Durant  2011-12       1          1
+7068         Marc Gasol  2011-12       1          1
+7111      Stephen Curry  2011-12       1          1
+7213      Stephen Curry  2012-13       1          1
+7318       Bradley Beal  2012-13       1          1
+7430        Joakim Noah  2012-13       1          1
+7431       Jimmy Butler  2012-13       1          1
+7512         Marc Gasol  2012-13       1          1
+7559       Kevin Durant  2012-13       1          1
+7565       Kemba Walker  2012-13       1          1
+7685       Jimmy Butler  2013-14       1          1
+7686        Joakim Noah  2013-14       1          1
+7766       Bradley Beal  2013-14       1          1
+7859        Rudy Gobert  2013-14       1          1
+7941      Stephen Curry  2013-14       1          1
+7992         Marc Gasol  2013-14       1          1
+8006       Kemba Walker  2013-14       1          1
+8013       Kevin Durant  2013-14       1          1
+8143        Rudy Gobert  2014-15       1          1
+8175         Marc Gasol  2014-15       1          1
+8242       Bradley Beal  2014-15       1          1
+8303      Stephen Curry  2014-15       1          1
+8524       Kevin Durant  2014-15       1          1
+8531       Kemba Walker  2014-15       1          1
+8537        Joakim Noah  2014-15       1          1
+8567       Jimmy Butler  2014-15       1          1
+8666       Jimmy Butler  2015-16       1          1
+8667        Joakim Noah  2015-16       1          1
+8736       Bradley Beal  2015-16       1          1
+8846        Rudy Gobert  2015-16       1          1
+8930      Stephen Curry  2015-16       1          1
+9008       Kemba Walker  2015-16       1          1
+9014       Kevin Durant  2015-16       1          1
+9053         Marc Gasol  2015-16       1          1
+9080         Marc Gasol  2016-17       1          1
+9139       Kevin Durant  2016-17       1          1
+9143       Kemba Walker  2016-17       1          1
+9257      Stephen Curry  2016-17       1          1
+9310        Rudy Gobert  2016-17       1          1
+9419       Bradley Beal  2016-17       1          1
+9495        Joakim Noah  2016-17       1          1
+9496       Jimmy Butler  2016-17       1          1
+9503      Fred VanVleet  2016-17       1          1
+9524   Domantas Sabonis  2016-17       1          1
+9584         Marc Gasol  2017-18       1          0
+9628       Kevin Durant  2017-18       1          1
+9633       Kemba Walker  2017-18       1          1
+9801      Stephen Curry  2017-18       1          1
+9822        Rudy Gobert  2017-18       1          1
+9962       Bradley Beal  2017-18       1          1
+10022       Joakim Noah  2017-18       1          1
+10023      Jimmy Butler  2017-18       1          1
+10035     Fred VanVleet  2017-18       1          1
+10063  Domantas Sabonis  2017-18       1          1
+10104     Fred VanVleet  2018-19       1          1
+10187      Jimmy Butler  2018-19       1          1
+10188       Joakim Noah  2018-19       1          1
+10215  Domantas Sabonis  2018-19       1          1
+10248      Bradley Beal  2018-19       1          1
+10368       Rudy Gobert  2018-19       1          1
+10390     Stephen Curry  2018-19       1          1
+10505      Kevin Durant  2018-19       1          1
+10530      Kemba Walker  2018-19       1          1
+10614        Marc Gasol  2018-19       1          1
+10684     Fred VanVleet  2019-20       1          1
+10712       Joakim Noah  2019-20       1          1
+10722      Kemba Walker  2019-20       1          1
+10772      Jimmy Butler  2019-20       1          1
+10810      Bradley Beal  2019-20       1          1
+10883  Domantas Sabonis  2019-20       1          1
+10961     Stephen Curry  2019-20       1          1
+10990       Rudy Gobert  2019-20       1          1
+11101        Marc Gasol  2019-20       1          1
+11171     Fred VanVleet  2020-21       1          1
+11199  Domantas Sabonis  2020-21       1          1
+11246      Jimmy Butler  2020-21       1          1
+11307      Bradley Beal  2020-21       1          1
+11537     Stephen Curry  2020-21       1          1
+11557       Rudy Gobert  2020-21       1          1
+11568      Kevin Durant  2020-21       1          1
+11630      Kemba Walker  2020-21       1          1
+11679        Marc Gasol  2020-21       1          1
+11746     Fred VanVleet  2021-22       1          1
+11779  Domantas Sabonis  2021-22       1          1
+12000      Bradley Beal  2021-22       1          1
+12189      Kevin Durant  2021-22       1          1
+12195      Kemba Walker  2021-22       1          1
+12210      Jimmy Butler  2021-22       1          1
+12212       Rudy Gobert  2021-22       1          1
+12250     Stephen Curry  2021-22       1          1
+12332       Rudy Gobert  2022-23       1          1
+12434     Stephen Curry  2022-23       1          1
+12485  Domantas Sabonis  2022-23       1          1
+12556     Fred VanVleet  2022-23       1          1
+12582      Bradley Beal  2022-23       1          1
+12663      Kevin Durant  2022-23       1          1
+12698      Kemba Walker  2022-23       1          1
+12834      Jimmy Butler  2022-23       1          1
+10313     Deandre Ayton  2018-19       0          0
+10945     Deandre Ayton  2019-20       0          0
+11380     Deandre Ayton  2020-21       0          0
+11577     Killian Hayes  2020-21       0          0
+11739       Evan Mobley  2021-22       0          0
+11745      Franz Wagner  2021-22       0          1
+11809       Jalen Green  2021-22       0          1
+11895        Cam Thomas  2021-22       0          0
+11909   Cade Cunningham  2021-22       0          0
+11973     Deandre Ayton  2021-22       0          0
+12008    Alperen Sengun  2021-22       0          0
+12225       Josh Giddey  2021-22       0          0
+12256     Killian Hayes  2021-22       0          0
+12282   Trey Murphy III  2021-22       0          0
+12326    Paolo Banchero  2022-23       0          0
+12401   Trey Murphy III  2022-23       0          0
+12513     Deandre Ayton  2022-23       0          0
+12551       Evan Mobley  2022-23       0          0
+12555      Franz Wagner  2022-23       0          0
+12603    Alperen Sengun  2022-23       0          0
+12642   Cade Cunningham  2022-23       0          0
+12646        Cam Thomas  2022-23       0          0
+12672     Killian Hayes  2022-23       0          0
+12693     Keegan Murray  2022-23       0          1
+12772       Jalen Green  2022-23       0          0
+12788        Jaden Ivey  2022-23       0          1
+12811       Josh Giddey  2022-23       0          0
